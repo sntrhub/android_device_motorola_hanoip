@@ -34,16 +34,10 @@ AB_OTA_POSTINSTALL_CONFIG += \
 # HAL: Boot Control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
-    android.hardware.boot@1.0-service
-
-PRODUCT_PACKAGES += \
-    bootctrl.sm6150
-
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+    android.hardware.boot@1.0-impl.recovery \
+    android.hardware.boot@1.0-service \
     bootctrl.sm6150 \
-    libgptutils \
-    libz \
-    libcutils
+    bootctrl.sm6150.recovery
 
 # GMS partner ID
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
