@@ -33,9 +33,9 @@ AB_OTA_POSTINSTALL_CONFIG += \
 
 # HAL: Boot Control
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.1-impl-qti \
-    android.hardware.boot@1.1-impl-qti.recovery \
-    android.hardware.boot@1.1-service
+    android.hardware.boot@1.2-impl-qti \
+    android.hardware.boot@1.2-impl-qti.recovery \
+    android.hardware.boot@1.2-service
 
 # GMS partner ID
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
