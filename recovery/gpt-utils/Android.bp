@@ -20,6 +20,7 @@ cc_library {
     recovery_available: true,
     shared_libs: [
         "libcutils",
+        "libion",
         "liblog",
         "libz",
     ],
@@ -30,6 +31,8 @@ cc_library {
     ],
     srcs: [
         "gpt-utils.cpp",
+        "dec.cpp",
+        "oem-recovery.cpp",
         "recovery-ufs-bsg.cpp",
     ],
     owner: "qti",
